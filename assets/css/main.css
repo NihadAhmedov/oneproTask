@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+
+header {
+  background-color: rgb(203, 201, 201);
+  position: fixed;
+  width: 100%;
+}
+header .collapse ul li a {
+  color: black;
+  font-weight: 480 !important;
+}
+header .collapse ul li a:hover {
+  color: rgb(67, 67, 244);
+}
+
+#BusinessDivBackground {
+  background-image: url("../../../assets/image/slide-1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#BusinessDivBackground .BusinessCreatorUmumi {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#BusinessDivBackground .BusinessCreatorUmumi .businessYazi #buss {
+  font-size: 20px;
+}
+#BusinessDivBackground .BusinessCreatorUmumi .businessYazi button {
+  padding: 8px;
+  border: 0;
+  background-color: aqua;
+  color: white;
+  width: 150px;
+  margin-top: 15px;
+}
+#BusinessDivBackground .BusinessCreatorUmumi .businessYazi button:hover {
+  background-color: white;
+  color: aqua;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.developmentUmumi {
+  text-align: center;
+  margin-top: 25px;
+}
+.developmentUmumi .develop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.developmentUmumi .develop #icons {
+  font-size: 35px;
+  border: 2px solid aqua;
+  padding: 10px;
+  width: 70px;
+}
+.developmentUmumi .develop button {
+  padding: 10px;
+  border: 0;
+  background-color: aqua;
+  color: white;
+  width: 35%;
+  border: 1px solid aqua;
+}
+.developmentUmumi .develop button:hover {
+  background-color: white;
+  color: aqua;
+  border: 1px solid blue;
+}
+
+.awesomeprojects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.awesomeprojects .line {
+  width: 4%;
+  height: 4px;
+  background-color: blue;
+}
+.awesomeprojects .allDivs {
+  text-align: center;
+}
+
+.loremprojects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.loremprojects #loremP {
+  text-align: center;
+  width: 70%;
+}
+
+#NineDivBack {
+  background-color: rgb(194, 190, 190);
+  padding: 25px;
+}
+#NineDivBack .allDivs .all h5:hover {
+  color: aqua;
+  transition: 1s;
+  cursor: pointer;
+}
+#NineDivBack .imageNine img {
+  width: 90%;
+  height: auto;
+}
+
+.fourDivImages .imageManken img {
+  width: 90%;
+  height: auto;
+}
+.fourDivImages .backblue {
+  background-color: rgb(47, 47, 236);
+  width: 90%;
+  height: auto;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#endSection {
+  background-color: black;
+  height: 80px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#endSection .footBlackDiv .copyright {
+  color: white;
+}
